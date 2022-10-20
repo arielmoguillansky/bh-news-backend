@@ -1,6 +1,6 @@
 <?php
-  include "/bh-cms/database/db.php";
-  include "/bh-cms/coolFunctions.php";
+  include "/database/db.php";
+  include "/coolFunctions.php";
   include "head.php";
 
   session_start();
@@ -18,10 +18,10 @@
     <header>
       <div>
         <a href="views/users.php">Usuarios</a>
-        <a href="/bh-cms/index.php">Artículos</a>
+        <a href="/index.php">Artículos</a>
       </div>
       <div>
         <h3>Bienvenido <?php echo $_SESSION['userFirstName'];?></h3>
-        <a href="/bh-cms/logout.php">Cerrar sesión</a>
+        <a href="/logout.php">Cerrar sesión</a>
       </div>
     </header>
