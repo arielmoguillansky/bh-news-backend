@@ -26,3 +26,4 @@ Debido al corto tiempo (24hs), esta aplicación debe ser mejorada. Algunos punto
 - Sanitización de DB
 - Configuración MVC
 - Refactorización
+- Links a articulos en una tabla aparte relacionada por ids con los articulos
