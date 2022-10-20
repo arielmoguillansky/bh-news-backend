@@ -7,7 +7,7 @@ class Database {
 
   protected function connect(){
     $dsn = 'mysql:host=' . $this->host . ';dbname=' . $this->dbName;
-    $pdo = new PDO('mysql:host=localhost;dbname=bh_news','root','');
+    $pdo = new PDO('mysql:host='.$host.';dbname='.$dbName.,$user,$pwd);
     return $pdo;
   }
 }
