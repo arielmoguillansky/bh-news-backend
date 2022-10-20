@@ -1,9 +1,9 @@
 <?php
 class Database {
-  private $host = 'localhost';
-  private $user = 'root';
-  private $pwd = '';
-  private $dbName = 'bh_news';
+  private $host = 'sql10.freemysqlhosting.net';
+  private $user = 'sql10527870';
+  private $pwd = 'eGdDmcRndB';
+  private $dbName = 'sql10527870';
 
   protected function connect(){
     $dsn = 'mysql:host=' . $this->host . ';dbname=' . $this->dbName;
